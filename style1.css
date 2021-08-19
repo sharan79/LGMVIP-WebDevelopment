@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+}
+#title {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg);
+  background-size: cover;
+  background-position: top;
+
+  color: rgb(255, 255, 255);
+}
+.row-title {
+  padding: 10%;
+}
+#contact {
+  background-color: #f8eaab;
+  text-align: center;
+  padding: 3% 10%;
+}
+#contact img:hover {
+  opacity: 0.6;
+}
+.row-img {
+  padding: 2% 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  padding: 0px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+/* nav bar */
+.navbar {
+  padding: 0 0 90px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+}
+#main {
+  background-color: rgb(124, 161, 240);
+  padding: 6% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+#main p {
+  color: #8f8f8f;
+}
+.icon {
+  margin-bottom: 1rem;
+  color: #7a4169;
+}
+.icon:hover {
+  color: #7a4160;
+}
+.f-box {
+  padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background: radial-gradient(
+    circle,
+    rgb(19, 99, 204) 0%,
+    rgb(192, 174, 209) 100%
+  );
+  color: white;
+}
+.carousel-item {
+  padding: 9% 13%;
+}
+
+#testimonials img {
+  border-radius: 50%;
+  width: 15%;
+  margin: 30px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+.c {
+  padding-top: 50px;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+#cta {
+  background-image: url(7-microsoft-wallpaper-11-windows-7-technology-windows-hd-art-wallpaper-preview.jpg);
+  height: 60vh;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  z-index: 80;
+
+  padding: 9% 17%;
+  color: rgb(155, 116, 116);
+}
+h3 {
+  font-size: 3rem;
+  font-family: montserrat;
+}
+footer {
+  text-align: center;
+  padding: 5% 15%;
+}
+.social {
+  margin-right: 20px;
+}
+.social:hover {
+  color: #7a4169;
+}
+footer p {
+  margin-top: 30px;
+  color: grey;
+}
+video-section {
+  background-color: #623b8c;
+  color: white;
+  height: 70%;
+  width: 100%;
+}
+.video-section h1 {
+  text-align: center;
+  padding-top: 87px;
+}
+.videos-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.video p {
+  padding: 13px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: monospace;
+}
+iframe {
+  width: 350px;
+  height: 250px;
+}
